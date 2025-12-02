@@ -1,4 +1,6 @@
 * Demo
+** Installing older defender images
+Sed command to overwrite tag on download
 ** Drift Detection
 *** Host runtime rules
 Non-packaged binaries created or run by service
