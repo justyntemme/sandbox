@@ -3,6 +3,8 @@
 need to comment out dowload new twistlock.cfg and defender image
    Sed command to overwrite tag on download
 ensure twistlock.sh does not mv over config file
+   docker save -o twistlock_defender.tar.gz
+   comment out defender-latest upgrade_host functions
 example image - defender_34_02_140_zoom-private-139-agentless-logs
 ** Drift Detection
 *** Host runtime rules
