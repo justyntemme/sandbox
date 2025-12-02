@@ -1,0 +1,54 @@
+{
+    "info": {
+        "_postman_id": "a-randomly-generated-uuid",
+        "name": "VAmPI API - Insecure Request Example",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "VAmPI API Root Endpoint - Health Check",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://18.117.93.116:5000/",
+                    "protocol": "https",
+                    "host": [
+                        "18.117.93.116"
+                    ],
+                    "port": "5000",
+                    "path": [
+                        ""
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Register user with extra field and wrong data type",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "url": {
+                    "raw": "https://18.117.93.116:5000/users/v1/register",
+                    "protocol": "https",
+                    "host": [
+                        "18.117.93.116"
+                    ],
+                    "port": "5000",
+                    "path": [
+                        "users",
+                        "v1",
+                        "register"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"username\": \"John.Doe\", \"password\": \"password123\", \"email\": 123456, \"age\": 30}"
+                }
+            },
+            "response": []
+        }
+    ],
+    "protocolProfileBehavior": {}
+}
