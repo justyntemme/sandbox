@@ -1,7 +1,8 @@
 * Demo
 ** Installing older defender images
-Sed command to overwrite tag on download
-
+need to comment out dowload new twistlock.cfg and defender image
+   Sed command to overwrite tag on download
+ensure twistlock.sh does not mv over config file
 example image - defender_34_02_140_zoom-private-139-agentless-logs
 ** Drift Detection
 *** Host runtime rules
