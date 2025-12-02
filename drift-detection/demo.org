@@ -1,3 +1,5 @@
+alert on apt-get
+
 * Demo
 ** Installing older defender images
 need to comment out dowload new twistlock.cfg and defender image
