@@ -1,6 +1,8 @@
 * Demo
 ** Installing older defender images
 Sed command to overwrite tag on download
+
+example image - defender_34_02_140_zoom-private-139-agentless-logs
 ** Drift Detection
 *** Host runtime rules
 Non-packaged binaries created or run by service
